@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <section>
+        <div class="title">
+            <p class="total">
+                Shopping cars Total
+                <span id="total">0</span>
+                <span>$</span>
+            </p>
+        </div>
+        <div class="part" id="part1">
+            <div class="icon">
+                <i class="fas fa-trash-alt"  onclick="remove()"></i>
+                <i class="fas fa-thumbs-up" id ="thumbs" onclick="thumbs()"></i>
+            </div>
+            <div  class="image">
+                <img src="./image/1908-Ford-Model-T_0.jpg" alt="">
+            </div>
+                <span class="product name">
+                 <strong>FORD</strong><br>
+                 </span>
+            <div class="btns">
+                <span class="btn" onclick="inc()">+</span>
+                <span class="btn" id="product-qtn">0</span>
+                <span class="btn" onclick="dec()">-</span>
+            </div>
+                 <p class="product-price"><span id="product1price">0</span> <span>$</span> </p>
+        </div>
+        
+
+
+
+        <div class="part" id="part2">
+            <div class="icon">
+                <i class="fas fa-trash-alt"  onclick="remove2()"></i>
+                <i class="fas fa-thumbs-up" id ="thumbs1" onclick="thumbs1()"></i>
+            </div>
+            <div  class="image">
+                <img src="./image/353115_2019_MINI_Classic.jpg" alt="">
+            </div>
+                <span class="product name">
+                 <strong>MINI COPPER</strong><br>
+                 </span>
+            <div class="btns">
+                <span class="btn" onclick="inc2()">+</span>
+                <span class="btn" id="product-qtn2">0</span>
+                <span class="btn" onclick="dec2()">-</span>
+            </div>
+                 <p class="product-price"><span id="product1price2">0</span> <span>$</span> </p>
+        </div>
+
+
+
+        <div class="part" id="part3">
+            <div class="icon">
+                <i class="fas fa-trash-alt"  onclick="remove3()"></i>
+                <i class="fas fa-thumbs-up" id ="thumbs2" onclick="thumbs2()" ></i>
+            </div>
+            <div  class="image">
+                 <img src="./image/If-you-toast-me-with-a-2012-Benz-Ill-not.jpeg" alt="">
+             </div>
+            
+                <span class="product name">
+                 <strong>MERCEDES_BNEZ</strong><br>
+                 </span>
+            <div class="btns">
+                <span class="btn" onclick="inc3()">+</span>
+                <span class="btn" id="product-qtn3">0</span>
+                <span class="btn" onclick="dec3()">-</span>
+            </div>
+                 <p class="product-price"><span id="product1price3">0</span> <span>$</span> </p>
+        </div>
+
+    </section>
+</body>
+<script src="./js/main.js"></script>
+</html>
